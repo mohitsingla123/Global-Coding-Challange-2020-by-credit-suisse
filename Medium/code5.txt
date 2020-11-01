@@ -1,0 +1,45 @@
+static String encrypt(String words) {
+        String s = words.replaceAll(" ", ""); 
+        int len = s.length();
+        int k = (int) Math.ceil(Math.sqrt(len));
+        int col = k;
+        int row;
+        if(k*(k-1) <= len)
+        {
+            row = k;
+        }
+        else
+        {
+            row = k-1;
+        }
+        char[][] arr = new char[row][col];
+        int check = 0;
+        int i, j;
+        for( i = 0; i<row; i++)
+        {
+            for(j = 0; j<col;j++)
+            {
+                if(check<len)
+                {
+                arr[i][j] = s.charAt(check);
+                check++;
+                }
+                else
+                {
+                    break;
+                }
+                
+            }
+        }
+        String res = "";
+        for(i = 0; i<col; i++)
+        {
+            for( j = 0; j<row;j++)
+            {
+                res = res + arr[j][i];
+            }
+            res = res+" ";
+        }
+        System.out.println("----"+res+"----");
+        return res;
+    }
