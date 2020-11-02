@@ -1,0 +1,32 @@
+import math
+# You may change this function parameters
+def encrypt(words):     
+    words = "".join(words.strip().split())
+    l = len(words)
+    x = math.floor(math.sqrt(l))
+    y = math.ceil(math.sqrt(l))
+    
+    if x * y < l:
+      x = y
+    
+    res = ""
+    for m in range(y):
+      i = m
+      while i < l:
+        res += words[i]
+        i += y
+      res += " "
+    
+    return res[:-1]
+
+def main():
+    words = input()
+
+    answer = encrypt(words)
+
+    # Please do not remove the below line.
+    print(answer)
+    # Do not print anything after this line
+
+if _name_ == '_main_':
+    main()
