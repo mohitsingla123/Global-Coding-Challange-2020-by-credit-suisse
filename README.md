@@ -4,24 +4,24 @@
 
 **EASY:**
 
-1.
+1. Profit Maximization Basic
 
-2.
+2. Profit Maximization Advance
 
-3.
+3. Achieving Desired Profit Quickly
 
-**MEADIUM:**
+**MEDIUM:**
 
-1.
+1. Calculate Risk Vs Profit
 
-2.
+2. Matching Bankers ans Particiants
 
-3.
+3. Encryption Secret Messages
 
 **HARD**
 
-1.
+1. Checking Q&A for Cheaters
 
-2.
+2. Making Change Using Coins
 
-3.
+3. Sorting Fraudulent Transactions
