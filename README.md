@@ -5,7 +5,7 @@
 
 **EASY:**
 
-1. Profit Maximization Basic
+1. Profit Maximization Basic  -   [Solution]()
 
 2. Profit Maximization Advance
 
