@@ -5,7 +5,7 @@
 
 **EASY:**
 
-1. Profit Maximization Basic  -   [Solution]()
+1. Profit Maximization Basic  -   [Java Solution](https://github.com/mohitsingla123/Global-Coding-Challange-2020-by-credit-suisse/blob/main/Easy/ProfitMaximization.java)
 
 2. Profit Maximization Advance
 
