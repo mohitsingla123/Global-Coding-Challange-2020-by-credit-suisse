@@ -9,7 +9,7 @@
 
 2. Profit Maximization Advance  -   [Java Solution](https://github.com/mohitsingla123/Global-Coding-Challange-2020-by-credit-suisse/blob/main/Easy/Profit_Maximization_Extended.java)
 
-3. Achieving Desired Profit Quickly
+3. Achieving Desired Profit Quickly   -   [Solution]()
 
 
 **MEDIUM:**
